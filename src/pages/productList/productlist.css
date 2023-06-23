@@ -1,0 +1,117 @@
+.productList {
+  flex: 4;
+}
+.productListItem {
+  display: flex;
+  align-items: center;
+}
+.productListImg {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.productListEdit {
+  border: none;
+  border-radius: 10%;
+  padding: 5px 10px;
+  color: white;
+  cursor: pointer;
+  background-color: #3bb077;
+  margin-right: 20px;
+}
+.productListDelete {
+  color: red;
+  cursor: pointer;
+}
+.productTop {
+  display: flex;
+}
+.productTopLeft,
+.productTopRight {
+  flex: 1;
+}
+.productTopRight {
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 1px 1px 8px 4px rgba(224, 213, 213, 0.48);
+  -webkit-box-shadow: 1px 1px 8px 4px rgba(224, 213, 213, 0.48);
+}
+.productInfoTopImg {
+  width: 40px;
+  height: 40px;
+  border: radius 50%;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.productInfoTop {
+  display: flex;
+  align-items: center;
+}
+.productInfoTopTitle {
+  font-weight: 600;
+}
+.productInfoBottom {
+  margin-top: 10px;
+}
+.productInfoBottomItems {
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+.productInfoBottomValue {
+  font-weight: 300;
+}
+.productBottom {
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 1px 1px 8px 4px rgba(224, 213, 213, 0.48);
+  -webkit-box-shadow: 1px 1px 8px 4px rgba(224, 213, 213, 0.48);
+}
+.productForm {
+  display: flex;
+  justify-content: space-between;
+}
+.productFormLeft {
+  display: flex;
+  flex-direction: column;
+}
+.productFormLeft > label {
+  margin-bottom: 10px;
+  color: grey;
+}
+.productFormLeft > input {
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px;
+  border-bottom: 1 px solid grey;
+}
+.productFormLeft > select {
+  margin-bottom: 10px;
+}
+.productFormImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+.productFormRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.productFormUpload {
+  display: flex;
+  align-items: center;
+}
+.productFormButton {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
